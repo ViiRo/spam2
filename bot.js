@@ -34,20 +34,20 @@ client.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-راتب'){
+    if(message.content === '-1say'){
         message.channel.send('#daily')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-مبلغ'){
+    if(message.content === '-2say'){
         message.channel.send('#credits')
     }
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-3say'){
+        message.channel.send('#rep')
     }
 });
 
@@ -58,7 +58,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -72,7 +72,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج ****Credit Spam , Frame , Credit By ViiRo , Farm Credit By ViiRo, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
